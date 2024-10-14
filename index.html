@@ -1,87 +1,25 @@
 <body>
-    <div class="tittel">
-        <p>Verdens tre høyeste skyskrapere <a href="oppgave1.html">klikkher</a></p>
-    </div>
-    <div class="boks-til-tabell">
-        <table>
-            <tr>
-            <th>Skyskraper</th>
-            <th>Høyde</th>
-            <th>By</th>
-            <th>Land</th>
-            <th>Byggår</th>
-            </tr>
-            <tr>
-            <td>Burj Khalifa</td>
-            <td>828 m</td>
-            <td>Dubai</td>
-            <td>De forente arabiske emiratene</td>
-            <td>2009</td>
-            </tr>
-            <tr class="hvite-blokker">
-            <td>Shanghai Tower</td>
-            <td>632 m</td>
-            <td>Shanghai</td>
-            <td>Kina</td>
-            <td>2014</td>
-            </tr>
-            <tr>
-            <td>Makkah Royal Clock Tower</td>
-            <td>601 m</td>
-            <td>Mekka</td>
-            <td>Saudi-Arabia</td>
-            <td>2011</td>
-            </tr>
-        </table>
-    </div>
-    <div class="row">
-        <img src="bilder/burj_stor.jpg" alt="">
-        <img src="bilder/Makkah_stor.jpg" alt="">
-        <img src="bilder/Shanghai_stor.jpg" alt="">
+    <div>
+    <a href="oppgave1.html">Oppgave 1</a>
+    <a href="">Oppgave 2</a>
+    <a class="nederst" href="">Oppgave 3</a>
     </div>
 </body>
+
 <style>
     div {
-        border: 2px solid black;
-        margin: 1rem;
-    }
-    .row {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        background-color: #2f2f2f;
+        padding: 1rem;
     }
-    img {
-        object-fit: cover;
-        width: 300px;
-        height: 600px;
-        flex: 1;
-    }
-    body {
-        background-color: #404040;
-    }
-    .boks-til-tabell {
-        background-color: #bdd4de;
-        padding: 2rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    table {
-        text-align: center;
-        width: 98vw;
-        background-color: #f6f5f4;
-    }
-    th {
+    a {
+        text-decoration: none;
+        font-size: 2rem;
         color: white;
-        background-color: #3f4259;
+        margin-bottom: 1rem;
     }
-    .hvite-blokker {
-        background-color: white;
-    }
-    .tittel {
-        background-color: #3f5765;
-        color: white;
-        font-size: 3rem;
-        font-family: Arial, Helvetica, sans-serif;
-        padding-left: 1rem;
+    .nederst {
+        margin-bottom: 0rem;
     }
 </style>
